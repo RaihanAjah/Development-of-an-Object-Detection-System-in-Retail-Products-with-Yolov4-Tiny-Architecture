@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PREDATOR\Downloads\Compressed\darknet-master\darknet-master\CMakeFiles\35b568f24728aad7d291e7eae416ea30\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{428EB5B1-35A0-3C9D-9146-F74C96A4560F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

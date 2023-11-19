@@ -1,0 +1,10 @@
+^C:\USERS\PREDATOR\DOWNLOADS\COMPRESSED\DARKNET-MASTER\DARKNET-MASTER\CMAKEFILES\35B568F24728AAD7D291E7EAE416EA30\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

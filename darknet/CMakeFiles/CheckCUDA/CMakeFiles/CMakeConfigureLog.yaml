@@ -1,0 +1,286 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      Build started 09/03/2023 08:23:52.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCUDA.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      AddCudaCompileDeps:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=6 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" /I. /FIcuda_runtime.h /c C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) is building "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        cmd.exe /C "C:\\Users\\PREDATOR\\AppData\\Local\\Temp\\tmpceafe84733ba4252b44a953f67551dda.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64;;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x86;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\libnvvp;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Java\\jdk1.8.0_241\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\PREDATOR\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\composer;C:\\laragon\\bin\\php\\php-7.3.23-Win32-VC15-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Graphviz\\bin;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\Python\\Python37;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\Python\\Python37\\Scripts;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.1.0\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\lib\\x64;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\laragon\\bin;C:\\laragon\\bin\\apache\\httpd-2.4.35-win64-VC15\\bin;C:\\laragon\\bin\\composer;C:\\laragon\\bin\\git\\bin;C:\\laragon\\bin\\git\\cmd;C:\\laragon\\bin\\git\\mingw64\\bin;C:\\laragon\\bin\\git\\usr\\bin;C:\\laragon\\bin\\laragon\\utils;C:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin;C:\\laragon\\bin\\nginx\\nginx-1.16.0;C:\\laragon\\bin\\ngrok;C:\\laragon\\bin\\nodejs\\node-v12;C:\\laragon\\bin\\notepad++;C:\\laragon\\bin\\php\\php-7.3.23-Win32-VC15-x64;C:\\laragon\\bin\\putty;C:\\laragon\\bin\\redis\\redis-x64-3.2.100;C:\\laragon\\bin\\telnet;C:\\laragon\\usr\\bin;C:\\Users\\PREDATOR\\AppData\\Local\\Yarn\\config\\global\\node_modules\\.bin;C:\\Users\\PREDATOR\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\PREDATOR\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\heroku\\bin;C:\\Users\\PREDATOR\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\;C:\\Users\\PREDATOR\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\Graphviz\\bin;C:\\flutter\\bin;C:\\Users\\PREDATOR\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021.2.3\\bin;;C:\\src\\flutter\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\opencv\\build\\include;C:\\Program Files\\opencv\\build\\x64\\vc16\\bin;C:\\Program Files\\opencv\\build\\x64\\vc16\\lib;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\lib\\x64;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include;;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-9.res" > "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-9.res
+        #$ cicc --microsoft_version=1935 --msvc_target_version=1935 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.26.0-rc5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00003348_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.26.0-rc5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-11.res" > "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-11.res
+        #$ cudafe++ --microsoft_version=1935 --msvc_target_version=1935 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.26.0-rc5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/PREDATOR/AppData/Local/Temp/tmpxft_00003348_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-12.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00003348_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\PREDATOR\\AppData\\Local\\Temp/tmpxft_00003348_00000000-12.res
+      Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj
+           Creating library .\\CompilerIdCUDA.lib and object .\\CompilerIdCUDA.exp
+        CompilerIdCUDA.vcxproj -> C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.26.0-rc5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.61
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.26.0-rc5/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng"
+      binary: "C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f951.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        Build started 09/03/2023 08:23:56.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2f951.dir\\Debug\\".
+          Creating directory "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\".
+          Creating directory "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        AddCudaCompileDeps:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=6 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" 
+        Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (1) is building "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\PREDATOR\\AppData\\Local\\Temp\\tmp71e7009b269f4d7698ae751370bae703.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_2f951.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_2f951.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+        Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (CudaBuildCore target(s)).
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\cmTC_2f951.exe" /INCREMENTAL /ILK:"cmTC_2f951.dir\\Debug\\cmTC_2f951.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.lib" /MACHINE:X64  -v cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+             Creating library C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.lib and object C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.exp
+          cmTC_2f951.vcxproj -> C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\cmTC_2f951.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\cmTC_2f951.lastbuildstate".
+        Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default target) (1) ->
+        "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (CudaBuildCore target) (1:2) ->
+        (CudaBuildCore target) -> 
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+        
+        
+        "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]
+        
+            4 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f951.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.0+6f08c67f3 for .NET Framework]
+        ignore line: [Build started 09/03/2023 08:23:56.]
+        ignore line: [Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp]
+        ignore line: []
+        ignore line: [Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" on node 1 (default targets).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Creating directory "cmTC_2f951.dir\\Debug\\".]
+        ignore line: [  Creating directory "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\".]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  Creating "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=6 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (1) is building "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\PREDATOR\\AppData\\Local\\Temp\\tmp71e7009b269f4d7698ae751370bae703.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_2f951.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_2f951.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (CudaBuildCore target(s)).]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\cmTC_2f951.exe" /INCREMENTAL /ILK:"cmTC_2f951.dir\\Debug\\cmTC_2f951.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.6\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.lib" /MACHINE:X64  -v cmTC_2f951.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [     Creating library C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.lib and object C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-oxylng/Debug/cmTC_2f951.exp]
+        ignore line: [  cmTC_2f951.vcxproj -> C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\Debug\\cmTC_2f951.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Deleting file "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\unsuccessfulbuild".]
+        ignore line: [  Touching "cmTC_2f951.dir\\Debug\\cmTC_2f951.tlog\\cmTC_2f951.lastbuildstate".]
+        ignore line: [Done Building Project "C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default targets).]
+        ignore line: []
+        ignore line: [Build succeeded.]
+        ignore line: []
+        ignore line: ["C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default target) (1) ->]
+        ignore line: ["C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (CudaBuildCore target) (1:2) ->]
+        ignore line: [(CudaBuildCore target) -> ]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj" (default target) (1) ->]
+        ignore line: [(Link target) -> ]
+        ignore line: [  LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [C:\\Users\\PREDATOR\\Downloads\\Compressed\\darknet-master\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-oxylng\\cmTC_2f951.vcxproj]]
+        ignore line: []
+        ignore line: [    4 Warning(s)]
+        ignore line: [    0 Error(s)]
+        ignore line: []
+        ignore line: [Time Elapsed 00:00:02.49]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

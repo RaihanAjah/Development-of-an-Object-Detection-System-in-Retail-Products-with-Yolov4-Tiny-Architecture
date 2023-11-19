@@ -1,0 +1,2 @@
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/ALL_BUILD.dir
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/ZERO_CHECK.dir

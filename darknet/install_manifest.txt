@@ -1,0 +1,10 @@
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/darknet.lib
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/darknet.dll
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/include/darknet/darknet.h
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/include/darknet/yolo_v2_class.hpp
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/uselib.exe
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/darknet.exe
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/share/darknet/DarknetTargets.cmake
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/share/darknet/DarknetTargets-release.cmake
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/share/darknet/DarknetConfig.cmake
+C:/Users/PREDATOR/Downloads/Compressed/darknet-master/darknet-master/share/darknet/DarknetConfigVersion.cmake
